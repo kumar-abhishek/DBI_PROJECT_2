@@ -1,0 +1,618 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AND	y.tab.c	/^     AND = 259,$/;"	e	enum:yytokentype	file:
+AND	y.tab.c	127;"	d	file:
+AND	y.tab.h	/^     AND = 259,$/;"	e	enum:yytokentype
+AND	y.tab.h	52;"	d
+Add	DBFile.cc	/^void DBFile::Add (Record &rec) {$/;"	f	class:DBFile
+AddLitToFile	Comparison.cc	/^void AddLitToFile (int &numFieldsInLiteral, FILE *outRecFile, FILE *outSchemaFile, char *value, Type myType) {$/;"	f
+AddPage	File.cc	/^void File :: AddPage (Page *addMe, off_t whichPage) {$/;"	f	class:File
+Advance	TwoWayList.cc	/^TwoWayList <Type> :: Advance ()$/;"	f	class:TwoWayList
+AndList	ParseTree.h	/^struct AndList {$/;"	s
+AndList	Parser.y	/^AndList: '(' OrList ')' AND AndList$/;"	l
+Append	File.cc	/^int Page :: Append (Record *addMe) {$/;"	f	class:Page
+Attribute	Schema.h	/^struct Attribute {$/;"	s
+BEGIN	lex.yy.c	125;"	d	file:
+BIGQ_H	BigQ.h	2;"	d
+BigQ	BigQ.cc	/^BigQ :: BigQ (Pipe &inputPipe, Pipe &outputPipe, OrderMaker &sortOrder, int runLength):$/;"	f	class:BigQ
+BigQ	BigQ.h	/^class BigQ {$/;"	c
+CC	Makefile	/^CC = g++ -O2 -Wno-deprecated$/;"	m
+CNF	Comparison.h	/^class CNF {$/;"	c
+COMPARISON_H	Comparison.h	2;"	d
+Close	DBFile.cc	/^int DBFile::Close () {$/;"	f	class:DBFile
+Close	File.cc	/^int File :: Close () {$/;"	f	class:File
+CompOperator	Defs.h	/^enum CompOperator {LessThan, GreaterThan, Equals};$/;"	g
+Compare	ComparisonEngine.cc	/^int ComparisonEngine :: Compare (Record *left, OrderMaker *order_left, Record *right, OrderMaker *order_right) {$/;"	f	class:ComparisonEngine
+Compare	ComparisonEngine.cc	/^int ComparisonEngine :: Compare (Record *left, Record *literal, CNF *myComparison) {$/;"	f	class:ComparisonEngine
+Compare	ComparisonEngine.cc	/^int ComparisonEngine :: Compare (Record *left, Record *right, Record *literal, CNF *myComparison) {$/;"	f	class:ComparisonEngine
+Compare	ComparisonEngine.cc	/^int ComparisonEngine :: Compare(Record *left, Record *right, OrderMaker *orderUs) {$/;"	f	class:ComparisonEngine
+CompareClass	BigQ.h	/^class CompareClass$/;"	c
+Comparison	Comparison.cc	/^Comparison::Comparison()$/;"	f	class:Comparison
+Comparison	Comparison.cc	/^Comparison::Comparison(const Comparison &copy_me)$/;"	f	class:Comparison
+Comparison	Comparison.h	/^class Comparison {$/;"	c
+ComparisonEngine	ComparisonEngine.h	/^class ComparisonEngine {$/;"	c
+ComparisonOp	ParseTree.h	/^struct ComparisonOp {$/;"	s
+Condition	Parser.y	/^Condition: Literal Op Literal $/;"	l
+Consume	Record.cc	/^void Record :: Consume (Record *fromMe) {$/;"	f	class:Record
+Copy	Record.cc	/^void Record :: Copy (Record *copyMe) {$/;"	f	class:Record
+CopyBits	Record.cc	/^void Record :: CopyBits(char *bits, int b_len) {$/;"	f	class:Record
+Create	DBFile.cc	/^int DBFile::Create (char *f_path, fType f_type, void *startup) {$/;"	f	class:DBFile
+Current	TwoWayList.cc	/^TwoWayList <Type> ::  Current (int offset)$/;"	f	class:TwoWayList
+DBFILE_H	DBFile.h	2;"	d
+DBFile	DBFile.cc	/^DBFile::DBFile () {$/;"	f	class:DBFile
+DBFile	DBFile.h	/^class DBFile {$/;"	c
+DEFS_H	Defs.h	2;"	d
+DOUBLE	ParseTree.h	9;"	d
+Double	Defs.h	/^enum Type {Int, Double, String};$/;"	e	enum:Type
+ECHO	lex.yy.c	599;"	d	file:
+EOB_ACT_CONTINUE_SCAN	lex.yy.c	168;"	d	file:
+EOB_ACT_END_OF_FILE	lex.yy.c	169;"	d	file:
+EOB_ACT_LAST_MATCH	lex.yy.c	170;"	d	file:
+EQUALS	ParseTree.h	6;"	d
+EmptyItOut	File.cc	/^void Page :: EmptyItOut () {$/;"	f	class:Page
+Equals	Defs.h	/^enum CompOperator {LessThan, GreaterThan, Equals};$/;"	e	enum:CompOperator
+FILE_H	File.h	2;"	d
+FLEXINT_H	lex.yy.c	29;"	d	file:
+FLEX_BETA	lex.yy.c	13;"	d	file:
+FLEX_SCANNER	lex.yy.c	8;"	d	file:
+File	File.cc	/^File :: File () {$/;"	f	class:File
+File	File.h	/^class File {$/;"	c
+Find	Schema.cc	/^int Schema :: Find (char *attName) {$/;"	f	class:Schema
+FindType	Schema.cc	/^Type Schema :: FindType (char *attName) {$/;"	f	class:Schema
+Float	y.tab.c	/^     Float = 262,$/;"	e	enum:yytokentype	file:
+Float	y.tab.c	130;"	d	file:
+Float	y.tab.h	/^     Float = 262,$/;"	e	enum:yytokentype
+Float	y.tab.h	55;"	d
+FromBinary	File.cc	/^void Page :: FromBinary (char *bits) {$/;"	f	class:Page
+GREATER_THAN	ParseTree.h	5;"	d
+GetAtts	Schema.cc	/^Attribute *Schema :: GetAtts () {$/;"	f	class:Schema
+GetBits	Record.cc	/^char* Record :: GetBits (void) {$/;"	f	class:Record
+GetFirst	File.cc	/^int Page :: GetFirst (Record *firstOne) {$/;"	f	class:Page
+GetLength	File.cc	/^off_t File :: GetLength () {$/;"	f	class:File
+GetNext	DBFile.cc	/^int DBFile::GetNext (Record &fetchme) {$/;"	f	class:DBFile
+GetNext	DBFile.cc	/^int DBFile::GetNext (Record &fetchme, CNF &cnf, Record &literal) {$/;"	f	class:DBFile
+GetNumAtts	Schema.cc	/^int Schema :: GetNumAtts () {$/;"	f	class:Schema
+GetPage	File.cc	/^void File :: GetPage (Page *putItHere, off_t whichPage) {$/;"	f	class:File
+GetSortOrders	Comparison.cc	/^int CNF :: GetSortOrders (OrderMaker &left, OrderMaker &right) {$/;"	f	class:CNF
+GreaterThan	Defs.h	/^enum CompOperator {LessThan, GreaterThan, Equals};$/;"	e	enum:CompOperator
+GrowFromParseTree	Comparison.cc	/^void CNF :: GrowFromParseTree (struct AndList *parseTree, Schema *leftSchema, $/;"	f	class:CNF
+GrowFromParseTree	Comparison.cc	/^void CNF :: GrowFromParseTree (struct AndList *parseTree, Schema *mySchema, $/;"	f	class:CNF
+Header	TwoWayList.h	/^		struct Header {$/;"	s	class:TwoWayList
+INITIAL	lex.yy.c	507;"	d	file:
+INT	ParseTree.h	10;"	d
+INT16_MAX	lex.yy.c	71;"	d	file:
+INT16_MIN	lex.yy.c	62;"	d	file:
+INT32_MAX	lex.yy.c	74;"	d	file:
+INT32_MIN	lex.yy.c	65;"	d	file:
+INT8_MAX	lex.yy.c	68;"	d	file:
+INT8_MIN	lex.yy.c	59;"	d	file:
+Insert	Pipe.cc	/^void Pipe :: Insert (Record *insertMe) {$/;"	f	class:Pipe
+Insert	TwoWayList.cc	/^TwoWayList <Type> :: Insert (Type *Item)$/;"	f	class:TwoWayList
+Int	Defs.h	/^enum Type {Int, Double, String};$/;"	e	enum:Type
+Int	y.tab.c	/^     Int = 263$/;"	e	enum:yytokentype	file:
+Int	y.tab.c	131;"	d	file:
+Int	y.tab.h	/^     Int = 263$/;"	e	enum:yytokentype
+Int	y.tab.h	56;"	d
+LESS_THAN	ParseTree.h	4;"	d
+Left	Defs.h	/^enum Target {Left, Right, Literal};$/;"	e	enum:Target
+LeftLength	TwoWayList.cc	/^TwoWayList <Type> :: LeftLength ()$/;"	f	class:TwoWayList
+LessThan	Defs.h	/^enum CompOperator {LessThan, GreaterThan, Equals};$/;"	e	enum:CompOperator
+Literal	Defs.h	/^enum Target {Left, Right, Literal};$/;"	e	enum:Target
+Literal	Parser.y	/^Literal : String $/;"	l
+Load	DBFile.cc	/^void DBFile::Load (Schema &f_schema, char *loadpath) {$/;"	f	class:DBFile
+MAX_ANDS	Defs.h	5;"	d
+MAX_ORS	Defs.h	6;"	d
+MergeRecords	Record.cc	/^void Record :: MergeRecords (Record *left, Record *right, int numAttsLeft, int numAttsRight, int *attsToKeep, int numAttsToKeep, int startOfRight) {$/;"	f	class:Record
+MoveFirst	DBFile.cc	/^void DBFile::MoveFirst () {$/;"	f	class:DBFile
+MoveToFinish	TwoWayList.cc	/^TwoWayList <Type> :: MoveToFinish ()$/;"	f	class:TwoWayList
+MoveToStart	TwoWayList.cc	/^TwoWayList <Type> :: MoveToStart ()$/;"	f	class:TwoWayList
+NAME	ParseTree.h	12;"	d
+Name	y.tab.c	/^     Name = 260,$/;"	e	enum:yytokentype	file:
+Name	y.tab.c	128;"	d	file:
+Name	y.tab.h	/^     Name = 260,$/;"	e	enum:yytokentype
+Name	y.tab.h	53;"	d
+Node	TwoWayList.h	/^			Node () : data (0), next (0), previous (0) {}$/;"	f	struct:TwoWayList::Node
+Node	TwoWayList.h	/^		struct Node {$/;"	s	class:TwoWayList
+OR	y.tab.c	/^     OR = 258,$/;"	e	enum:yytokentype	file:
+OR	y.tab.c	126;"	d	file:
+OR	y.tab.h	/^     OR = 258,$/;"	e	enum:yytokentype
+OR	y.tab.h	51;"	d
+Op	Parser.y	/^Op: '<' $/;"	l
+Open	DBFile.cc	/^int DBFile::Open (char *f_path) {$/;"	f	class:DBFile
+Open	File.cc	/^void File :: Open (int fileLen, char *fName) {$/;"	f	class:File
+Operand	ParseTree.h	/^struct Operand {$/;"	s
+OrList	ParseTree.h	/^struct OrList {$/;"	s
+OrList	Parser.y	/^OrList: Condition OR OrList$/;"	l
+OrderMaker	Comparison.cc	/^OrderMaker :: OrderMaker() {$/;"	f	class:OrderMaker
+OrderMaker	Comparison.cc	/^OrderMaker :: OrderMaker(Schema *schema) {$/;"	f	class:OrderMaker
+OrderMaker	Comparison.h	/^class OrderMaker {$/;"	c
+PAGE_SIZE	Defs.h	8;"	d
+PIPE_H	Pipe.h	2;"	d
+Page	File.cc	/^Page :: Page () {$/;"	f	class:Page
+Page	File.h	/^class Page {$/;"	c
+Pipe	Pipe.cc	/^Pipe :: Pipe (int bufferSize) {$/;"	f	class:Pipe
+Pipe	Pipe.h	/^class Pipe {$/;"	c
+Print	Comparison.cc	/^void CNF :: Print () {$/;"	f	class:CNF
+Print	Comparison.cc	/^void Comparison :: Print () {$/;"	f	class:Comparison
+Print	Comparison.cc	/^void OrderMaker :: Print () {$/;"	f	class:OrderMaker
+Print	Record.cc	/^void Record :: Print (Schema *mySchema) {$/;"	f	class:Record
+Project	Record.cc	/^void Record :: Project (int *attsToKeep, int numAttsToKeep, int numAttsNow) {$/;"	f	class:Record
+RECORD_H	Record.h	2;"	d
+REJECT	lex.yy.c	469;"	d	file:
+Record	Record.cc	/^Record :: Record () {$/;"	f	class:Record
+Record	Record.h	/^class Record {$/;"	c
+RecordSortingWrapper	BigQ.h	/^        RecordSortingWrapper (Record *r, OrderMaker *o) : myRec(r), myComparison(o)$/;"	f	class:RecordSortingWrapper
+RecordSortingWrapper	BigQ.h	/^class RecordSortingWrapper$/;"	c
+RecordVector	BigQ.h	/^typedef vector<RecordSortingWrapper*> RecordVector;$/;"	t
+Remove	Pipe.cc	/^int Pipe :: Remove (Record *removeMe) {$/;"	f	class:Pipe
+Remove	TwoWayList.cc	/^TwoWayList <Type> :: Remove (Type *Item)$/;"	f	class:TwoWayList
+Retreat	TwoWayList.cc	/^TwoWayList <Type> :: Retreat ()$/;"	f	class:TwoWayList
+Right	Defs.h	/^enum Target {Left, Right, Literal};$/;"	e	enum:Target
+RightLength	TwoWayList.cc	/^TwoWayList <Type> :: RightLength ()$/;"	f	class:TwoWayList
+Run	ComparisonEngine.cc	/^int ComparisonEngine :: Run (Record *left, Record *literal, Comparison *c) {$/;"	f	class:ComparisonEngine
+Run	ComparisonEngine.cc	/^int ComparisonEngine :: Run (Record *left, Record *right, Record *literal, Comparison *c) {$/;"	f	class:ComparisonEngine
+SCHEMA_H	Schema.h	3;"	d
+STRING	ParseTree.h	11;"	d
+Schema	Schema.cc	/^Schema :: Schema (char *fName, char *relName) {$/;"	f	class:Schema
+Schema	Schema.h	/^class Schema {$/;"	c
+SetBits	Record.cc	/^void Record :: SetBits (char *bits) {$/;"	f	class:Record
+ShutDown	Pipe.cc	/^void Pipe :: ShutDown () {$/;"	f	class:Pipe
+String	Defs.h	/^enum Type {Int, Double, String};$/;"	e	enum:Type
+String	y.tab.c	/^     String = 261,$/;"	e	enum:yytokentype	file:
+String	y.tab.c	129;"	d	file:
+String	y.tab.h	/^     String = 261,$/;"	e	enum:yytokentype
+String	y.tab.h	54;"	d
+SuckNextRecord	Record.cc	/^int Record :: SuckNextRecord (Schema *mySchema, FILE *textFile) {$/;"	f	class:Record
+SwapLefts	TwoWayList.cc	/^TwoWayList <Type> :: SwapLefts (TwoWayList & List)$/;"	f	class:TwoWayList
+SwapRights	TwoWayList.cc	/^TwoWayList <Type> :: SwapRights (TwoWayList & List)$/;"	f	class:TwoWayList
+TEST_H	test.h	2;"	d
+Target	Defs.h	/^enum Target {Left, Right, Literal};$/;"	g
+ToBinary	File.cc	/^void Page :: ToBinary (char *bits) {$/;"	f	class:Page
+TwoWayList	TwoWayList.cc	/^TwoWayList <Type> :: TwoWayList ()$/;"	f	class:TwoWayList
+TwoWayList	TwoWayList.cc	/^TwoWayList <Type> :: TwoWayList (TwoWayList &me) {$/;"	f	class:TwoWayList
+TwoWayList	TwoWayList.h	/^class TwoWayList {$/;"	c
+Type	Defs.h	/^enum Type {Int, Double, String};$/;"	g
+UINT16_MAX	lex.yy.c	80;"	d	file:
+UINT32_MAX	lex.yy.c	83;"	d	file:
+UINT8_MAX	lex.yy.c	77;"	d	file:
+YYABORT	y.tab.c	554;"	d	file:
+YYACCEPT	y.tab.c	553;"	d	file:
+YYBACKUP	y.tab.c	566;"	d	file:
+YYBISON	y.tab.c	46;"	d	file:
+YYBISON_VERSION	y.tab.c	49;"	d	file:
+YYCOPY	y.tab.c	344;"	d	file:
+YYCOPY	y.tab.c	347;"	d	file:
+YYDEBUG	y.tab.c	94;"	d	file:
+YYDPRINTF	y.tab.c	646;"	d	file:
+YYDPRINTF	y.tab.c	795;"	d	file:
+YYEMPTY	y.tab.c	550;"	d	file:
+YYEOF	y.tab.c	551;"	d	file:
+YYERRCODE	y.tab.c	585;"	d	file:
+YYERROR	y.tab.c	555;"	d	file:
+YYERROR_VERBOSE	y.tab.c	100;"	d	file:
+YYERROR_VERBOSE	y.tab.c	102;"	d	file:
+YYERROR_VERBOSE	y.tab.c	99;"	d	file:
+YYFAIL	y.tab.c	562;"	d	file:
+YYFINAL	y.tab.c	377;"	d	file:
+YYFPRINTF	y.tab.c	643;"	d	file:
+YYFREE	y.tab.c	310;"	d	file:
+YYID	y.tab.c	/^YYID (int yyi)$/;"	f	file:
+YYID	y.tab.c	234;"	d	file:
+YYINITDEPTH	y.tab.c	804;"	d	file:
+YYLAST	y.tab.c	379;"	d	file:
+YYLEX	y.tab.c	633;"	d	file:
+YYLEX	y.tab.c	635;"	d	file:
+YYLLOC_DEFAULT	y.tab.c	594;"	d	file:
+YYLSP_NEEDED	y.tab.c	64;"	d	file:
+YYMALLOC	y.tab.c	303;"	d	file:
+YYMAXDEPTH	y.tab.c	815;"	d	file:
+YYMAXUTOK	y.tab.c	392;"	d	file:
+YYNNTS	y.tab.c	384;"	d	file:
+YYNRULES	y.tab.c	386;"	d	file:
+YYNSTATES	y.tab.c	388;"	d	file:
+YYNTOKENS	y.tab.c	382;"	d	file:
+YYPACT_NINF	y.tab.c	508;"	d	file:
+YYPOPSTACK	y.tab.c	1155;"	d	file:
+YYPULL	y.tab.c	61;"	d	file:
+YYPURE	y.tab.c	55;"	d	file:
+YYPUSH	y.tab.c	58;"	d	file:
+YYRECOVERING	y.tab.c	564;"	d	file:
+YYRHSLOC	y.tab.c	592;"	d	file:
+YYSIZE_MAXIMUM	y.tab.c	211;"	d	file:
+YYSIZE_T	y.tab.c	199;"	d	file:
+YYSIZE_T	y.tab.c	201;"	d	file:
+YYSIZE_T	y.tab.c	205;"	d	file:
+YYSIZE_T	y.tab.c	207;"	d	file:
+YYSKELETON_NAME	y.tab.c	52;"	d	file:
+YYSTACK_ALLOC	y.tab.c	257;"	d	file:
+YYSTACK_ALLOC	y.tab.c	261;"	d	file:
+YYSTACK_ALLOC	y.tab.c	266;"	d	file:
+YYSTACK_ALLOC	y.tab.c	289;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	y.tab.c	286;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	y.tab.c	292;"	d	file:
+YYSTACK_BYTES	y.tab.c	336;"	d	file:
+YYSTACK_FREE	y.tab.c	280;"	d	file:
+YYSTACK_FREE	y.tab.c	290;"	d	file:
+YYSTACK_GAP_MAXIMUM	y.tab.c	332;"	d	file:
+YYSTACK_RELOCATE	y.tab.c	363;"	d	file:
+YYSTATE	lex.yy.c	132;"	d	file:
+YYSTYPE	y.tab.c	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE	y.tab.c	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	y.tab.h	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	y.tab.h	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	y.tab.c	156;"	d	file:
+YYSTYPE_IS_DECLARED	y.tab.h	81;"	d
+YYSTYPE_IS_TRIVIAL	y.tab.c	154;"	d	file:
+YYSTYPE_IS_TRIVIAL	y.tab.h	79;"	d
+YYTABLES_NAME	lex.yy.c	1870;"	d	file:
+YYTABLE_NINF	y.tab.c	526;"	d	file:
+YYTERROR	y.tab.c	584;"	d	file:
+YYTOKENTYPE	y.tab.c	113;"	d	file:
+YYTOKENTYPE	y.tab.h	38;"	d
+YYTOKEN_TABLE	y.tab.c	107;"	d	file:
+YYTRANSLATE	y.tab.c	394;"	d	file:
+YYUNDEFTOK	y.tab.c	391;"	d	file:
+YYUSE	y.tab.c	227;"	d	file:
+YYUSE	y.tab.c	229;"	d	file:
+YY_	y.tab.c	217;"	d	file:
+YY_	y.tab.c	221;"	d	file:
+YY_AT_BOL	lex.yy.c	339;"	d	file:
+YY_BREAK	lex.yy.c	678;"	d	file:
+YY_BUFFER_EOF_PENDING	lex.yy.c	255;"	d	file:
+YY_BUFFER_NEW	lex.yy.c	243;"	d	file:
+YY_BUFFER_NORMAL	lex.yy.c	244;"	d	file:
+YY_BUFFER_STATE	lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	lex.yy.c	149;"	d	file:
+YY_BUF_SIZE	lex.yy.c	151;"	d	file:
+YY_CHAR	lex.yy.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	lex.yy.c	271;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	lex.yy.c	278;"	d	file:
+YY_DECL	lex.yy.c	666;"	d	file:
+YY_DECL_IS_OURS	lex.yy.c	662;"	d	file:
+YY_DO_BEFORE_ACTION	lex.yy.c	364;"	d	file:
+YY_END_OF_BUFFER	lex.yy.c	373;"	d	file:
+YY_END_OF_BUFFER_CHAR	lex.yy.c	140;"	d	file:
+YY_EXIT_FAILURE	lex.yy.c	1668;"	d	file:
+YY_EXTRA_TYPE	lex.yy.c	518;"	d	file:
+YY_FATAL_ERROR	lex.yy.c	653;"	d	file:
+YY_FLEX_MAJOR_VERSION	lex.yy.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	lex.yy.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	lex.yy.c	11;"	d	file:
+YY_FLUSH_BUFFER	lex.yy.c	307;"	d	file:
+YY_INPUT	lex.yy.c	606;"	d	file:
+YY_INT_ALIGNED	lex.yy.c	4;"	d	file:
+YY_LESS_LINENO	lex.yy.c	172;"	d	file:
+YY_LOCATION_PRINT	y.tab.c	620;"	d	file:
+YY_LOCATION_PRINT	y.tab.c	625;"	d	file:
+YY_MORE_ADJ	lex.yy.c	473;"	d	file:
+YY_NEW_FILE	lex.yy.c	138;"	d	file:
+YY_NULL	lex.yy.c	112;"	d	file:
+YY_NUM_RULES	lex.yy.c	372;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	588;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	590;"	d	file:
+YY_REDUCE_PRINT	y.tab.c	785;"	d	file:
+YY_REDUCE_PRINT	y.tab.c	798;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	lex.yy.c	474;"	d	file:
+YY_RULE_SETUP	lex.yy.c	681;"	d	file:
+YY_SC_TO_UI	lex.yy.c	119;"	d	file:
+YY_STACK_PRINT	y.tab.c	747;"	d	file:
+YY_STACK_PRINT	y.tab.c	797;"	d	file:
+YY_START	lex.yy.c	131;"	d	file:
+YY_START_STACK_INCR	lex.yy.c	648;"	d	file:
+YY_STATE_BUF_SIZE	lex.yy.c	157;"	d	file:
+YY_STATE_EOF	lex.yy.c	135;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	lex.yy.c	196;"	d	file:
+YY_SYMBOL_PRINT	y.tab.c	652;"	d	file:
+YY_SYMBOL_PRINT	y.tab.c	796;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	lex.yy.c	160;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	lex.yy.c	191;"	d	file:
+YY_USER_ACTION	lex.yy.c	673;"	d	file:
+YY_USE_CONST	lex.yy.c	100;"	d	file:
+YY_USE_CONST	lex.yy.c	93;"	d	file:
+_ENGINE	ComparisonEngine.h	2;"	d
+_STDLIB_H	y.tab.c	271;"	d	file:
+_STDLIB_H	y.tab.c	299;"	d	file:
+_TWO_WAY_LIST_C	TwoWayList.cc	2;"	d	file:
+_TWO_WAY_LIST_H	TwoWayList.h	2;"	d
+__STDC_LIMIT_MACROS	lex.yy.c	39;"	d	file:
+actualChars	y.tab.c	/^	char *actualChars;$/;"	m	union:YYSTYPE	file:
+actualChars	y.tab.h	/^	char *actualChars;$/;"	m	union:YYSTYPE
+alloca	y.tab.c	264;"	d	file:
+attType	Comparison.h	/^	Type attType;$/;"	m	class:Comparison
+bits	Record.h	/^	char *bits;$/;"	m	class:Record
+buffered	Pipe.h	/^	Record *buffered;$/;"	m	class:Pipe
+c	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+catalog_path	test.h	/^char *catalog_path = "catalog"; $/;"	v
+cleanup	test.h	/^void cleanup () {$/;"	f
+code	ParseTree.h	/^	int code;$/;"	m	struct:ComparisonOp
+code	ParseTree.h	/^	int code;$/;"	m	struct:Operand
+consumer	test.cc	/^void *consumer (void *arg) {$/;"	f
+consumerVar	Pipe.h	/^	pthread_cond_t consumerVar;$/;"	m	class:Pipe
+curLength	File.h	/^	off_t curLength; $/;"	m	class:File
+curPageNum	DBFile.h	/^	int curPageNum; \/\/my current Page number I am on.$/;"	m	class:DBFile
+curSizeInBytes	File.h	/^	int curSizeInBytes;$/;"	m	class:Page
+current	TwoWayList.h	/^			Node * current;$/;"	m	struct:TwoWayList::Header
+currentPage	DBFile.h	/^	Page *currentPage;$/;"	m	class:DBFile
+currentRecord	DBFile.h	/^	Record *currentRecord;$/;"	m	class:DBFile
+customer	test.h	/^char *customer = "customer"; $/;"	v
+data	TwoWayList.h	/^			Type *data;$/;"	m	struct:TwoWayList::Node
+dbfile_dir	test.h	/^char *dbfile_dir = ""; $/;"	v
+done	Pipe.h	/^	int done;$/;"	m	class:Pipe
+fType	DBFile.h	/^typedef enum {heap, sorted, tree} fType;$/;"	t	typeref:enum:__anon1
+file	BigQ.h	/^                File file;$/;"	m	class:BigQ
+fileName	Schema.h	/^	char *fileName;$/;"	m	class:Schema
+filePtr	DBFile.h	/^	File *filePtr;$/;"	m	class:DBFile
+final	y.tab.c	/^	struct AndList *final;	$/;"	v	typeref:struct:AndList
+first	TwoWayList.h	/^			Node * first;$/;"	m	struct:TwoWayList::Header
+firstSlot	Pipe.h	/^	int firstSlot;$/;"	m	class:Pipe
+flex_int16_t	lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+get_cnf	test.h	/^	void get_cnf (CNF &cnf_pred, Record &literal) {$/;"	f	class:relation
+get_sort_order	test.h	/^	void get_sort_order (OrderMaker &sortorder) {$/;"	f	class:relation
+heap	DBFile.h	/^typedef enum {heap, sorted, tree} fType;$/;"	e	enum:__anon1
+info	test.h	/^	void info () {$/;"	f	class:relation
+inputPipe	BigQ.h	/^                Pipe& inputPipe;$/;"	m	class:BigQ
+last	TwoWayList.h	/^			Node * last;$/;"	m	struct:TwoWayList::Header
+lastSlot	Pipe.h	/^	int lastSlot;$/;"	m	class:Pipe
+left	ParseTree.h	/^	struct ComparisonOp *left;$/;"	m	struct:OrList	typeref:struct:OrList::ComparisonOp
+left	ParseTree.h	/^	struct Operand *left;$/;"	m	struct:ComparisonOp	typeref:struct:ComparisonOp::Operand
+left	ParseTree.h	/^	struct OrList *left;$/;"	m	struct:AndList	typeref:struct:AndList::OrList
+leftSize	TwoWayList.h	/^			int leftSize;$/;"	m	struct:TwoWayList::Header
+li	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+lineitem	test.h	/^char *lineitem = "lineitem"; $/;"	v
+lineno	lex.yy.c	/^int lineno = 1;$/;"	v
+list	TwoWayList.h	/^		Header *list;	$/;"	m	class:TwoWayList
+main	test.cc	/^int main (int argc, char *argv[]) {$/;"	f
+myAndList	y.tab.c	/^  	struct AndList *myAndList;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::AndList	file:
+myAndList	y.tab.h	/^  	struct AndList *myAndList;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::AndList
+myAtts	Schema.h	/^	Attribute *myAtts;$/;"	m	class:Schema
+myComparison	BigQ.h	/^        OrderMaker *myComparison;$/;"	m	class:RecordSortingWrapper
+myComparison	y.tab.c	/^	struct ComparisonOp *myComparison; $/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::ComparisonOp	file:
+myComparison	y.tab.h	/^	struct ComparisonOp *myComparison; $/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::ComparisonOp
+myFilDes	File.h	/^	int myFilDes;$/;"	m	class:File
+myFile	BigQ.h	/^                char *myFile;$/;"	m	class:BigQ
+myOperand	y.tab.c	/^ 	struct Operand *myOperand;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::Operand	file:
+myOperand	y.tab.h	/^ 	struct Operand *myOperand;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::Operand
+myOrList	y.tab.c	/^  	struct OrList *myOrList;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::OrList	file:
+myOrList	y.tab.h	/^  	struct OrList *myOrList;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::OrList
+myRec	BigQ.h	/^        Record *myRec;$/;"	m	class:RecordSortingWrapper
+myRecs	File.h	/^	TwoWayList <Record> *myRecs;$/;"	m	class:Page
+myType	Schema.h	/^	Type myType;$/;"	m	struct:Attribute
+n	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+name	Schema.h	/^	char *name;$/;"	m	struct:Attribute
+name	test.h	/^	char* name () { return rname; }$/;"	f	class:relation
+nation	test.h	/^char *nation = "nation"; $/;"	v
+next	TwoWayList.h	/^			Node *next;$/;"	m	struct:TwoWayList::Node
+numAnds	Comparison.h	/^	int numAnds;$/;"	m	class:CNF
+numAtts	Comparison.h	/^	int numAtts;$/;"	m	class:OrderMaker
+numAtts	Schema.h	/^	int numAtts;$/;"	m	class:Schema
+numRecs	File.h	/^	int numRecs;$/;"	m	class:Page
+numberOfPages	DBFile.h	/^	int numberOfPages; \/\/number of pages in my DBFile.$/;"	m	class:DBFile
+o	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+op	Comparison.h	/^	CompOperator op;$/;"	m	class:Comparison
+operand1	Comparison.h	/^	Target operand1;$/;"	m	class:Comparison
+operand2	Comparison.h	/^	Target operand2;$/;"	m	class:Comparison
+operator &=	TwoWayList.cc	/^TwoWayList <Type> :: operator &= (TwoWayList & List)$/;"	f	class:TwoWayList
+orLens	Comparison.h	/^	int orLens[MAX_ANDS];$/;"	m	class:CNF
+orList	Comparison.h	/^	Comparison orList[MAX_ANDS][MAX_ORS];$/;"	m	class:CNF
+order	test.h	/^	OrderMaker *order;$/;"	m	struct:__anon2
+orders	test.h	/^char *orders = "orders"; $/;"	v
+outputPipe	BigQ.h	/^                Pipe& outputPipe;$/;"	m	class:BigQ
+p	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+part	test.h	/^char *part = "part"; $/;"	v
+partsupp	test.h	/^char *partsupp = "partsupp"; $/;"	v
+path	test.h	/^	char* path () { return rpath; }$/;"	f	class:relation
+pipe	test.h	/^	Pipe *pipe;$/;"	m	struct:__anon2
+pipeMutex	Pipe.h	/^	pthread_mutex_t pipeMutex;$/;"	m	class:Pipe
+prefix	test.h	/^	char *prefix;$/;"	m	class:relation
+previous	TwoWayList.h	/^			Node *previous;$/;"	m	struct:TwoWayList::Node
+print	test.h	/^	bool print;$/;"	m	struct:__anon2
+processBigQ	BigQ.cc	/^void *processBigQ(void *arg)$/;"	f
+producer	test.cc	/^void *producer (void *arg) {$/;"	f
+producerVar	Pipe.h	/^	pthread_cond_t producerVar;$/;"	m	class:Pipe
+ps	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+r	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+region	test.h	/^char *region = "region"; $/;"	v
+rel	test.h	/^relation *rel;$/;"	v
+relation	test.h	/^	relation (char *_name, Schema *_schema, char *_prefix) :$/;"	f	class:relation
+relation	test.h	/^class relation {$/;"	c
+right	ParseTree.h	/^	struct Operand *right;	$/;"	m	struct:ComparisonOp	typeref:struct:ComparisonOp::Operand
+rightAnd	ParseTree.h	/^	struct AndList *rightAnd;$/;"	m	struct:AndList	typeref:struct:AndList::AndList
+rightOr	ParseTree.h	/^	struct OrList *rightOr;$/;"	m	struct:OrList	typeref:struct:OrList::OrList
+rightSize	TwoWayList.h	/^			int rightSize;$/;"	m	struct:TwoWayList::Header
+rname	test.h	/^	char *rname;$/;"	m	class:relation
+rpath	test.h	/^	char rpath[100]; $/;"	m	class:relation
+rschema	test.h	/^	Schema *rschema;$/;"	m	class:relation
+runLength	BigQ.h	/^                int runLength;$/;"	m	class:BigQ
+runPagePos	BigQ.h	/^                vector<int> runPagePos;$/;"	m	class:BigQ
+run_number	BigQ.h	/^        int run_number;         \/\/indicates the run to which the record belongs$/;"	m	class:RecordSortingWrapper
+s	test.h	/^relation *s, *p, *ps, *n, *li, *r, *o, *c;$/;"	v
+schema	test.h	/^	Schema* schema () { return rschema;}$/;"	f	class:relation
+setup	test.h	/^void setup () {$/;"	f
+short	y.tab.c	167;"	d	file:
+sortOrder	BigQ.h	/^                OrderMaker& sortOrder;$/;"	m	class:BigQ
+sorted	DBFile.h	/^typedef enum {heap, sorted, tree} fType;$/;"	e	enum:__anon1
+supplier	test.h	/^char *supplier = "supplier"; $/;"	v
+tag	Makefile	/^tag = -i$/;"	m
+tag	Makefile	/^tag = -n$/;"	m
+tempDirForRun	BigQ.cc	/^char *BigQ::tempDirForRun = ".";$/;"	m	class:BigQ	file:
+tempDirForRun	BigQ.h	/^                static char *tempDirForRun;$/;"	m	class:BigQ
+test1	test.cc	/^void test1 (int option, int runlen) {$/;"	f
+testutil	test.h	/^}testutil;$/;"	t	typeref:struct:__anon2
+totSpace	Pipe.h	/^	int totSpace;$/;"	m	class:Pipe
+totalPagesWritten	BigQ.h	/^                int totalPagesWritten;$/;"	m	class:BigQ
+tpch_dir	test.h	/^char *tpch_dir =""; \/\/ dir where dbgen tpch files (extension *.tbl) can be found$/;"	v
+tree	DBFile.h	/^typedef enum {heap, sorted, tree} fType;$/;"	e	enum:__anon1
+unput	lex.yy.c	188;"	d	file:
+value	ParseTree.h	/^	char *value;$/;"	m	struct:Operand
+whichAtt1	Comparison.h	/^	int whichAtt1;$/;"	m	class:Comparison
+whichAtt2	Comparison.h	/^	int whichAtt2;$/;"	m	class:Comparison
+whichAtts	Comparison.h	/^	int whichAtts[MAX_ANDS];$/;"	m	class:OrderMaker
+whichTypes	Comparison.h	/^	Type whichTypes[MAX_ANDS];$/;"	m	class:OrderMaker
+workerThread	BigQ.h	/^                pthread_t workerThread;$/;"	m	class:BigQ
+write	test.h	/^	bool write;$/;"	m	struct:__anon2
+yy_accept	lex.yy.c	/^static yyconst flex_int16_t yy_accept[28] =$/;"	v	file:
+yy_at_bol	lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	lex.yy.c	/^static yyconst flex_int16_t yy_base[30] =$/;"	v	file:
+yy_bs_column	lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	lex.yy.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	lex.yy.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	lex.yy.c	/^static yyconst flex_int16_t yy_chk[56] =$/;"	v	file:
+yy_create_buffer	lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	lex.yy.c	/^static yyconst flex_int16_t yy_def[30] =$/;"	v	file:
+yy_delete_buffer	lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	lex.yy.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	lex.yy.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	lex.yy.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	lex.yy.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	lex.yy.c	/^static yyconst flex_int32_t yy_meta[20] =$/;"	v	file:
+yy_more_flag	lex.yy.c	/^static int yy_more_flag = 0;$/;"	v	file:
+yy_more_len	lex.yy.c	/^static int yy_more_len = 0;$/;"	v	file:
+yy_n_chars	lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	lex.yy.c	317;"	d	file:
+yy_nxt	lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	lex.yy.c	/^static yyconst flex_int16_t yy_nxt[56] =$/;"	v	file:
+yy_reduce_print	y.tab.c	/^yy_reduce_print (YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	lex.yy.c	329;"	d	file:
+yy_set_interactive	lex.yy.c	319;"	d	file:
+yy_size_t	lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	y.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	y.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	y.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	y.tab.c	/^union yyalloc$/;"	u	file:
+yychar	y.tab.c	/^int yychar;$/;"	v
+yycheck	y.tab.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	y.tab.c	549;"	d	file:
+yyconst	lex.yy.c	106;"	d	file:
+yyconst	lex.yy.c	108;"	d	file:
+yydebug	y.tab.c	/^int yydebug;$/;"	v
+yydefact	y.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	y.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	y.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	y.tab.c	548;"	d	file:
+yyerror	lex.yy.c	/^void yyerror(char *s) {$/;"	f
+yyfree	lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	lex.yy.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyin	lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	lex.yy.c	/^int yyleng;$/;"	v
+yyless	lex.yy.c	1679;"	d	file:
+yyless	lex.yy.c	1680;"	d	file:
+yyless	lex.yy.c	175;"	d	file:
+yylex_destroy	lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	lex.yy.c	/^int yylineno = 1;$/;"	v
+yylval	y.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	lex.yy.c	472;"	d	file:
+yynerrs	y.tab.c	/^int yynerrs;$/;"	v
+yyout	lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	y.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yyparse	y.tab.c	/^yyparse (void *YYPARSE_PARAM)$/;"	f
+yypgoto	y.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yyprhs	y.tab.c	/^static const yytype_uint8 yyprhs[] =$/;"	v	file:
+yypush_buffer_state	lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	y.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	y.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrhs	y.tab.c	/^static const yytype_int8 yyrhs[] =$/;"	v	file:
+yyrline	y.tab.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyset_debug	lex.yy.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	lex.yy.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	lex.yy.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	lex.yy.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyss_alloc	y.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	y.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	y.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	y.tab.c	847;"	d	file:
+yystrlen	y.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	y.tab.c	824;"	d	file:
+yystype	y.tab.c	155;"	d	file:
+yystype	y.tab.h	80;"	d
+yysyntax_error	y.tab.c	/^yysyntax_error (char *yyresult, int yystate, int yychar)$/;"	f	file:
+yytable	y.tab.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yyterminate	lex.yy.c	643;"	d	file:
+yytext	lex.yy.c	/^char *yytext;$/;"	v
+yytext_ptr	lex.yy.c	354;"	d	file:
+yytname	y.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	y.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	y.tab.c	/^   enum yytokentype {$/;"	g	file:
+yytokentype	y.tab.h	/^   enum yytokentype {$/;"	g
+yytoknum	y.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	y.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	y.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	y.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	y.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	y.tab.c	/^typedef short int yytype_int8;$/;"	t	file:
+yytype_int8	y.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	y.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	y.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	y.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	y.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	lex.yy.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	y.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	lex.yy.c	/^int yywrap(void){$/;"	f
+~BigQ	BigQ.cc	/^BigQ::~BigQ () {$/;"	f	class:BigQ
+~DBFile	DBFile.cc	/^DBFile::~DBFile () {$/;"	f	class:DBFile
+~File	File.cc	/^File :: ~File () {$/;"	f	class:File
+~Node	TwoWayList.h	/^			~Node () $/;"	f	struct:TwoWayList::Node
+~Page	File.cc	/^Page :: ~Page () {$/;"	f	class:Page
+~Pipe	Pipe.cc	/^Pipe :: ~Pipe () {$/;"	f	class:Pipe
+~Record	Record.cc	/^Record :: ~Record () {$/;"	f	class:Record
+~Schema	Schema.cc	/^Schema :: ~Schema () {$/;"	f	class:Schema
+~TwoWayList	TwoWayList.cc	/^TwoWayList <Type> :: ~TwoWayList ()$/;"	f	class:TwoWayList
